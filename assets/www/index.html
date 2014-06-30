@@ -1,45 +1,58 @@
-<!DOCTYPE html> 
-<html> 
-	<head> 
-		<title>My Page</title> 
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/main.css"/>
-		<link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" />
-        
-	</head> 
-	<body> 
-	
-		<div data-role="page" data-theme="b">
+<!DOCTYPE html>
+<html>
 
-			<div data-role="header">
-				<h1>jQueruuu Mobile App</h1>
-			</div>
+<head>
+    <title>My Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
 
-			<div data-role="content">	
-                 
-				<ul data-role="listview" data-inset="true" data-filter="true">
-					<li><a data-transition="slidefade" href="../www/index.html">Homiez</a></li>
-					<li><a data-transition="slidefade" href="../www/page2.html">page2</a></li>
-					<li><a href="#">BMmmmmfffmW</a></li>
-                    
-					<li><a href="#">Cadillac</a></li>
-					<li><a href="#">Ferrari</a></li>
-				</ul>
-			</div>
+<body>
+
+    <div data-role="page" data-theme="b">
+
+        <div data-role="navbar" data-grid="d">
+
+            <div data-role="header">
+                <h1>jQueruuu Mobile App</h1>
+                
+            </div>
             
+            <ul>
+                <li class="ui-block-a"><a data-transition="slidefade" href="../www/index.html" class="ui-btn-active">Homiez</a>
+                </li>
+                <li class="ui-block-b"><a data-transition="slidefade" href="../www/page2.html" >page2</a>
+                </li>
+                <li class="ui-block-c"><a href="#">BMW</a>
+                </li>
+                <li class="ui-block-d"><a href="#">Cadillac</a>
+                </li>
+                <li class="ui-block-e"><a href="#">Ferrari</a>
+                </li>
+            </ul>
             
+        </div>
 
-		</div>
-		
-		<script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.js"></script>
-		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-		<script type="text/javascript" src="js/jquery.mobile-1.4.2.min.js"></script>
-		<script type="text/javascript" src="js/cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/application.js"></script>
-		<script type="text/javascript">
-            app.initialize();
-        </script>
-        		
-	</body>
+        <div data-role="content">
+
+            <button id="btn" data-transition="pop">
+                <p>hi how ya dern</p>
+            </button>
+        </div>
+
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/cordova.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+
+</body>
+
 </html>
