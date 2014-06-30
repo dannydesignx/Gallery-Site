@@ -1,34 +1,21 @@
-.fitgrid{
+.fitgrid {
     width:100%;
 }
-
-.contentmarg{
+.contentmarg {
     margin:10px;
 }
-
-.cheese{
-    color:red;
-    background-color:white;
-}
-
-#bgimg{
+#bgimg {
     position:fixed;
     display:inline;
     width:100%;
     margin:0;
-    
 }
-
-
-
-#Cheader > h1{
+#Cheader > h1 {
     position:relative;
     left:-25%;
-   
     text-shadow:none;
 }
-
-.btn{
+.btn {
     display:inline-block;
     position:relative;
     left:90%;
@@ -37,8 +24,7 @@
     border-radius:50%;
     border:none;
 }
-
-.bars{
+.bars {
     position:relative;
     width:100%;
     height:3px;
