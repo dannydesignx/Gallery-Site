@@ -11,6 +11,15 @@
     
 }
 
+#bgimg{
+    position:fixed;
+    display:inline;
+    width:100%;
+    margin:0;
+    
+}
+
+
 #Cheader > h1{
     position:relative;
     left:-25%;
