@@ -6,9 +6,9 @@
     margin:10px;
 }
 
-#Cheader{
-    background: -webkit-linear-gradient(#e66119, #bc4f15);
-    
+.cheese{
+    color:red;
+    background-color:white;
 }
 
 #bgimg{
