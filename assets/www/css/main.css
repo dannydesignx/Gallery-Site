@@ -4,11 +4,8 @@
 .contentmarg {
     margin:10px;
 }
-#bgimg {
-    position:fixed;
-    display:inline;
+#gridimg {
     width:100%;
-    margin:0;
 }
 #Cheader > h1 {
     position:relative;
@@ -30,4 +27,39 @@
     height:3px;
     background-color:black;
     border-radius:3px;
+}
+
+
+.article{
+    display:;
+    background-color:white;
+    border-bottom: thin solid black;
+   
+}
+
+
+
+.img-list-height img{
+    width:100%;
+    
+}
+
+.article-img-box{
+    height:250px;
+    
+    display:inline-block;
+}
+
+.article-img-box > img{
+    width:100%;
+    
+}
+
+.article-text-box{
+    display: block;
+    width:50%;
+    height:100%;
+    background-color:red;
+    text-align:center;
+    
 }

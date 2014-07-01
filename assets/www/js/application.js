@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    $("#btn").on("click", function() {
-        $(this).addClass("cheese");
+    $("img").on("mouseover", function() {
+        $(this).zoom("cheese");
         $(this).html("fuck oooooffff!");
     });
 });
