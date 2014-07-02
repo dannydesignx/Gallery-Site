@@ -29,37 +29,30 @@
     border-radius:3px;
 }
 
-
-.article{
-    display:;
-    background-color:white;
-    border-bottom: thin solid black;
-   
+.ui-grid {
+    width:90%;
+    margin-top:8%;
+    margin-left:auto;
+    margin-right:auto;
+    
 }
 
-
-
-.img-list-height img{
+.ui-grid img{
     width:100%;
     
-}
-
-.article-img-box{
-    height:250px;
-    
-    display:inline-block;
-}
-
-.article-img-box > img{
-    width:100%;
     
 }
 
-.article-text-box{
-    display: block;
-    width:50%;
-    height:100%;
-    background-color:red;
-    text-align:center;
-    
+.ui-grid > div{
+    width:16%;
+    float:left;
+    margin:3px;
+}
+
+#slideinmenu{
+    float:left;
+    margin-right:.3%;
+    width:10%;
+    background-color:grey;
+    padding:0;
 }
