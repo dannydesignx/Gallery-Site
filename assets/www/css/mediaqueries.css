@@ -1,0 +1,30 @@
+@media all and (max-width: 768px){
+
+	.gallery-grid {
+
+	width: 100%;
+	float:none;
+	}
+
+
+	.gallery-grid div img {
+
+		display:inline-block;
+		width:100%;
+
+
+	}
+
+
+	.gallery-grid div {
+
+
+		width:100%;
+		float: none;
+
+		margin: auto;
+
+		padding:.5%;
+
+	}
+}
