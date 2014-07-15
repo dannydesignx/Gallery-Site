@@ -4,25 +4,26 @@
 <head>
     <title>My Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.2.min.js"></script>
     <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
 </head>
 
 <body>
 
-    
-    <div data-role="page" data-theme="b">
+    <div data-role="page">
 
-        <div data-role="navbar" class="">
-
-            <div data-role="header">
-                <h1>TestFile</h1>
-
-            </div>
+        <div data-role="header" data-theme="b">
+			<h1>Test File</h1>
+        </div>
+		
+        <div data-role="navbar" class="ui-grid-d">
 
             <ul>
-                <li class="ui-block-a"><a data-transition="fade" href="index.html" class="ui-btn-active">Home</a>
-                </li>
+                <li class="ui-block-c"><a data-transition="fade" href="index.html">Home</a>
+				</li>
                 <li class="ui-block-c"><a data-transition="fade" href="photogallery.html">Photo</a>
                 </li>
                 <li class="ui-block-b"><a data-transition="fade" href="videogallery.html">Video</a>
@@ -34,14 +35,10 @@
             </ul>
 
         </div>
+		
+        <div role="main" class="ui-content">
 
-        <!--make the below menu slide in-->
-      
-        
-        <div data-role="content" data-theme="a"data data-theme="a">
-            
-            <article class="ui-grid">
-
+            <section class="gallery-grid">
                 <div>
                     <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -57,110 +54,54 @@
                     <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-        
 
-        <div>
-            <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                <div>
+                    <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </section>
+			
+			<hr>
+			
+			<section class="gallery-grid">
+                <div>
+                    <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div>
+                    <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+
+                <div>
+                    <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+
+                <div>
+                    <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </section>
+
+
         </div>
+        <!-- /content -->
 
-
-        <div>
-            <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div data-role="footer" data-theme="b">
+            <h4>Page Footer</h4>
         </div>
-
-
-
-
-
-        <div>
-            <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-
-
-        <div>
-            <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-
-
-        <div>
-            <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-
-
-        <div>
-            <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-
-
-        <div>
-            <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-
-
-
-
-
-        <div>
-            <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-
-
-        <div>
-            <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-
-
-        <div>
-            <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-
-
-        <div>
-            <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-
-
-        <div>
-            <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        
-        <div>
-            <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-                
-        <div>
-            <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-                
-        <div>
-            <img src="https://m1.behance.net/rendition/modules/105975917/hd/28ee75c2c6d9f34a5e13c12824e3362b.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-
-
-        </article>
+        <!-- /footer -->
     </div>
+    <!-- /page -->
 
-    </div>
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.js"></script>
-    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.mobile-1.4.2.min.js"></script>
-    <script type="text/javascript" src="js/cordova.js"></script>
+ 
     <script type="text/javascript" src="js/application.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
