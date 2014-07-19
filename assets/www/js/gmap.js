@@ -8,4 +8,4 @@ function initialize() {
       mapOptions);
 }
 
-google.maps.event.addDomListener(window, 'deviceready', initialize);
+google.maps.event.addEventListener(window, 'deviceready', initialize);
